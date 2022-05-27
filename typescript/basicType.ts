@@ -40,7 +40,7 @@ function sayHi(name: string, age?: number) {
 // Union types with type keywords
 type UnionTypes = number | string[];
 
-function getID(id: UnionTypes): number {
+function getIDs(id: UnionTypes): number {
   if (typeof id === "number") {
     return id;
   }

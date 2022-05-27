@@ -31,7 +31,7 @@ function sayHi(name, age) {
         console.log(age);
     }
 }
-function getID(id) {
+function getIDs(id) {
     if (typeof id === "number") {
         return id;
     }
