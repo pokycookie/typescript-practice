@@ -363,7 +363,7 @@ cookie.name = "poky";       // Error: Cannot assign to 'name' because it is a re
 cookie.age = 26;            // No Error
 ```
 
-### **Unknown properties**
+### **Unknown properties (Index signiture)**
 
 ```TypeScript
 // 새로운 property를 허용하기 위해 [key: type]형태를 interface내에 선언한다.
@@ -381,7 +381,7 @@ const cookie: Person = {
 };
 ```
 
-### **Function (Call signitures)**
+### **Function (Call signiture)**
 
 ```TypeScript
 interface Signitures {
